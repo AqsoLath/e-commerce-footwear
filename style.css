@@ -1,0 +1,187 @@
+*{
+	/*display: none;*/
+
+}
+
+body{
+	background-color: #edf2f4;
+}
+
+.navbar.scrolled{
+	background:  #2b2d42 !important;
+
+}
+
+.navbar.scrolled .navbar-nav a{
+	/*border: 2px solid #2b2d42;*/
+}
+
+.navbar {
+	background: /*rgba(43, 45, 66, .5)*/ transparent !important;
+	transition: .5s;
+}
+
+.navbar-nav a{
+	/*background-color: rgba(43, 45, 66, .5);*/
+	color: #edf2f4 !important;
+	font-weight: 600;
+	/*padding: 1px;*/
+	/*padding-right: 30px;*/
+	margin : 0 20px;
+	/*border: 2px solid #edf2f4;*/
+	border-radius: 5px;
+	/*font-size: 18px;*/
+}
+
+.navbar-nav a:hover{
+	color: #8d99ae !important;
+}
+
+.navbar-brand{
+	color: #d90429 !important;
+	text-shadow: .5px .5px 1px #fff;
+	font-family: 'anton';
+	font-weight: 300;
+	font-size: 24px;
+}
+
+.jumbo{
+	padding-top: 100px;
+	background-image: url(image/hero-sepatu.jpg);
+	background-size: cover;
+	background-position: center 80%;
+	margin-bottom: 100px;
+	height: 600px;
+}
+
+.jumbotron h1{
+	color: #edf2f4;
+	text-shadow: 2px 2px 1px #d90429;
+	margin-top: 80px;
+	font-size: 72px;
+	/*font-weight: 600;*/
+	font-family: 'anton';
+}
+
+.jumbotron p{
+	color:  #edf2f4;
+	text-shadow: 1px 1px 1px #ef233c;
+	font-weight: 500;
+	font-size: 24px;
+}
+
+.jumbotron .wadah-arrow{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	margin-top: 200px;
+	color: #edf2f4;
+}
+
+.jumbotron .wadah-arrow h6{
+	font-size: 20px;
+}
+
+.jumbotron .wadah-arrow a{
+	text-decoration: none;
+	color: #edf2f4 !important;
+	text-shadow: 1px 1px 3px #2b2d42;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-size: 32px;
+	-webkit-animation: slide-top 1s ease-in-out infinite alternate-reverse both;
+	        animation: slide-top 1s ease-in-out infinite alternate-reverse both;
+}
+
+.product h2{
+	font-size: 50px;
+	color: #d90429;
+	text-shadow: 1px 1px 1px #8d99ae;
+}
+
+.card {
+	background-color: #edf2f4;
+	padding: 5px;
+	/*height: 300px;*/
+	margin-bottom: 500px;
+	border: none;
+	border-radius: 0;
+}
+
+.card img{
+	height: 170px;
+	border-radius: 0;
+	box-shadow: 1px 1px 2px #2b2d42;
+}
+
+.card h5{
+	font-size: 28px;
+}
+
+.card a{
+	background-color: #8d99ae;
+	border: 2px solid #2b2d42;
+	color: #edf2f4;
+	/*text-shadow: 1px 1px 1px #edf2f4;*/
+	font-weight: 500;
+	border-radius: 0;
+	box-shadow: 1px 1px 1px #edf2f4;
+}
+
+.card a:hover{
+	background-color: #ef233c;
+	border: 2px solid #2b2d42;
+	color: #edf2f4;
+	text-shadow: none;
+	font-weight: 500;
+	border-radius: 0;
+	box-shadow: 1px 1px 1px #edf2f4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+}
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+}

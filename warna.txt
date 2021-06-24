@@ -1,0 +1,5 @@
+hitam : #2b2d42
+abu : #8d99ae
+putih: #edf2f4
+merah muda : #ef233c
+merah tua : #d90429
