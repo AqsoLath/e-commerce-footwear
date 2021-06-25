@@ -32,7 +32,7 @@
 
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <title>Hello, world!</title>
+    <title>AxoLath's footwear</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-light fixed-top bg-transparent">
