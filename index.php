@@ -43,7 +43,7 @@
 	    </button>
 	    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 	      <div class="navbar-nav mx-auto">
-	        <a class="nav-link px-4" href="blog.php">Home</a>
+	        <a class="nav-link px-4" href="#">Home</a>
 	        <a class="nav-link px-4" href="#tandaproduct">Product</a>
 	        <a class="nav-link px-4" href="#tandacontact">Contact</a>
 	        <!-- <a class="nav-link" href="#">Disabled</a> -->
